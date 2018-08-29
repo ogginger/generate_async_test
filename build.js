@@ -4,14 +4,13 @@
 ({
     paths: {
 	"underscore": "lib/underscore.min",
+	"log": "lib/log.min",
 	"rsvp": "lib/rsvp.min",
 	"promise": "lib/promise.min",
-	"bIsObjectEqual": "lib/is_object_equal.min",
 	"AsyncTest": "lib/async_test.min",
-	"log": "lib/log.min",
 	"validate": "lib/validate.min"
     },
-    exclude: [ "underscore", "rsvp", "promise" ],
+    exclude: [ "underscore", "rsvp", "promise", "log", "validate" ],
     name: "xGenerateAsyncTest",
     out: "generate_async_test.min.js"
 })
